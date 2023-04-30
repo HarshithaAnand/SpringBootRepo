@@ -1,6 +1,6 @@
 FROM openjdk
 
-RUN apt-get update
+RUN apt update
 
 WORKDIR /usr/app
 
