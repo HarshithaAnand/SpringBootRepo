@@ -1,6 +1,6 @@
 FROM openjdk
 
-COPY ./target/demo-docker*.jar /usr/app/dockerDemo.jar
+RUN apt-get update
 
 WORKDIR /usr/app
 
